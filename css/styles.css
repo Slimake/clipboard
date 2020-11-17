@@ -1,0 +1,186 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #fff;
+	font-family: 'Bai Jamjuree', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+}
+
+h1, h2, h3 {
+	color: hsl(210, 10%, 33%);
+	font-weight: 600;
+}
+
+p {
+	color: hsl(201, 11%, 66%);
+}	
+/* Title */
+
+.header {
+	background-image: url(../images/bg-header-desktop.png);
+	padding: 8rem 0 3rem;
+}
+
+.container-fluid {
+	margin-top: 30px;
+	padding: 3% 10%;
+}
+
+.title .container-fluid {
+	margin: 0 0 100px 0;
+	padding: 0 10%;
+}
+
+.botton {
+	border-radius: 50px;
+	color: white;
+	margin: 2% 1% 2% 0;
+	padding: 10px 27px;
+}
+
+.btn-color1 {
+	background-color: hsl(171, 66%, 44%);
+}
+
+.btn-color2 {
+	background-color: hsl(233, 100%, 69%);
+}
+
+/* Features */
+
+.feature-info-right {
+	padding-top: 50px;
+}
+
+.feature-text {
+	width: 75%;
+	margin-bottom: 30px;
+}
+
+.img-width {
+	margin-top: 50px;
+	width: 80%;
+}
+
+.size {
+	width: 65%;
+	margin: 20px auto;
+}
+
+.left {
+	text-align: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.space {
+	padding: 50px 0 30px;
+}
+
+/* Press */
+
+.press img {
+	padding: 1.5rem;
+}
+
+/* Footer */
+
+.footer {
+	background-color: #f4f4f2;
+	color: hsl(210, 10%, 33%);
+	margin-top: 100px;
+	text-align: left;
+}
+
+.footer img {
+	width: 50px;
+}
+
+.footer ul {
+	list-style: none;
+}
+
+.flex-right {
+	width: 200px;
+	display: inline-block;
+	padding: 10px;
+}
+
+.footer a {
+	color: hsl(210, 10%, 33%);
+	text-decoration: none;
+}
+
+.socials {
+	text-align: right;
+}
+
+.social {
+	padding: 0 10px;
+}
+
+/* Media Quuries */
+
+@media (max-width: 995px) {
+
+	.container-fluid {
+		padding: 3% 5%;
+	}
+
+	.heading-resize {
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	.img-width {
+		width: 70%;
+	}
+
+	.size {
+		width: 100%;
+	}
+
+	.feature-text {
+		width: 90%;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+	.press img {
+		width: 250px;
+		padding: 30px 50px;
+	}
+
+	.footer {
+		text-align: center;
+	}
+
+	.faq{
+		margin: 30px auto;
+	}
+
+	.socials {
+		text-align: center;
+	}
+
+	.social {
+		padding: 0 20px;
+	}
+
+}
+
+@media (max-width: 580px) {
+	.btn {
+		display: block;
+		width: 95%;
+		margin: 10px auto;
+	}
+}
