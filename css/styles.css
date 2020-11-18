@@ -136,7 +136,7 @@ p {
 	}
 
 	.heading-resize {
-                width: 90%;
+		width: 80%;
 		margin: 0 auto;
 	}
 
@@ -149,8 +149,8 @@ p {
 	}
 
 	.feature-text {
-		widh: 80%;
-		margin-bottom: 30px;
+		width: 100%;
+		margin: 0 auto 30px;
 		text-align: center;
 	}
 
@@ -160,6 +160,7 @@ p {
 	}
 
 	.footer {
+		padding: 10px 0;
 		text-align: center;
 	}
 
@@ -180,7 +181,7 @@ p {
 @media (max-width: 580px) {
 	.btn {
 		display: block;
-		width: 100%;
+		width: 95%;
 		margin: 10px auto;
 	}
 }
