@@ -179,7 +179,7 @@ p {
 @media (max-width: 580px) {
 	.btn {
 		display: block;
-		width: 95%;
+		width: 100%;
 		margin: 10px auto;
 	}
 }
